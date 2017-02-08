@@ -1,3 +1,10 @@
-a.box_float {
-  color:pink;
-  }
+a {
+  text-decoration: none;
+}
+img {
+  position: absolute;
+	top: 50%;
+	width: 400px;
+	height: 500px;
+	margin: -250px auto 0 auto;
+}
