@@ -5,16 +5,16 @@ div#colonne1 {
   	border : 2px solid lightblue;
   	border-radius : 8px 30px 15px 2px;
   	margin-right: 50px;
-	margin-left:10%;
+	margin-left:2%;
 	margin-top : 50px;
 }
 
 
 div#colonne2 {
 	float: right;
-	width: 40%;
+	width: 30%;
  	margin-left: 50px;
-	margin-right:10%;
+	margin-right:2%;
 	margin-top : 50px;
 }
 
