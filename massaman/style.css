@@ -1,8 +1,8 @@
 div#colonne1 {
 	float: left;
 	width: 20%;
-	background: white;
-  	border : 2px solid blue;
+	background: blue;
+  	border : 2px solid lightblue;
   	border-radius : 8px 30px 15px 2px;
   	margin-right: 50px;
 	margin-left:10%;
@@ -13,24 +13,35 @@ div#colonne1 {
 div#colonne2 {
 	float: right;
 	width: 40%;
-	background: white;
-	border : 2px solid blue;
- 	border-radius : 15px 50px 30px 5px;
  	margin-left: 50px;
 	margin-right:10%;
 	margin-top : 50px;
 }
 
+div#colonne2 img {
+	max-width: auto;
+	max-height: auto;
+}
 
 div#centre {
   overflow: hidden;
 }
 
 h1 {
-	color : black;
+	color : white;
+	font-family: verdana, arial;
+	font-size:1.2em;
+}
+h2 {
+	color : white;
 	font-family: verdana, arial;
 	font-size:1em;
 }
+p {
+	color : white;
+	font-family: verdana, arial;
+	font-size:0.8em;
+}
 a {
-	color : orange;
+	color : white;
 }
