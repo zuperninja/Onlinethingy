@@ -7,6 +7,7 @@ div#colonne1 {
   	margin-right: 50px;
 	margin-left:2%;
 	margin-top : 50px;
+	padding:5px;
 }
 
 
@@ -19,8 +20,8 @@ div#colonne2 {
 }
 
 div#colonne2 img {
-	max-width: 30%;
-	max-height: 30%;
+	max-width: auto;
+	max-height: auto;
 	object-fit: contain;
 }
 
@@ -36,20 +37,21 @@ div#centre img {
 }
 
 h1 {
-	color : white;
-	font-family: verdana, arial;
+	color : #045FB4;
+	font-family: Verdana, arial;
 	font-size:1.2em;
+	text-transform:uppercase;
 }
 h2 {
-	color : white;
+	color : #045FB4;
 	font-family: verdana, arial;
 	font-size:1em;
 }
 p {
-	color : white;
+	color : #045FB4;
 	font-family: verdana, arial;
 	font-size:0.8em;
 }
 a {
-	color : white;
+	color : #045FB4;
 }
