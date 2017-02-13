@@ -1,8 +1,8 @@
 div#colonne1 {
 	float: left;
 	width: 20%;
-	background: blue;
-  	border : 2px solid lightblue;
+	background: white;
+  	border : 1px solid lightblue;
   	border-radius : 8px 30px 15px 2px;
   	margin-right: 50px;
 	margin-left:2%;
@@ -19,12 +19,20 @@ div#colonne2 {
 }
 
 div#colonne2 img {
-	max-width: auto;
-	max-height: auto;
+	max-width: 30%;
+	max-height: 30%;
+	object-fit: contain;
 }
 
 div#centre {
   overflow: hidden;
+}
+
+div#centre img {
+	max-width: 100%;
+	max-height: 100%;
+	object-fit: contain;
+	object-position: top 50%;
 }
 
 h1 {
