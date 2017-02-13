@@ -25,3 +25,12 @@ div#colonne2 {
 div#centre {
   overflow: hidden;
 }
+
+h1 {
+	color : black;
+	font-family: verdana, arial;
+	font-size:1em;
+}
+a {
+	color : orange;
+}
