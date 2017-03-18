@@ -8,20 +8,18 @@
     <link rel="stylesheet" type="text/css" href="css/jquery.countdown.css"> 
     <script type="text/javascript" src="js/jquery.plugin.js"></script> 
     <script type="text/javascript" src="js/jquery.countdown.js"></script>
-</head>
-    
-<body>
-    
-    Avant les bisous il reste :
-    <div id="countdown">
-        <script type="text/javascript">
-        $(function() {
-            $('.yourCountdownContainer').countdown({
-                date: "April 20, 2017 07:20:00"
-            });
+    <script>
+        $(function () {
+            var austDay = new Date();
+            austDay = new Date(austDay.getFullYear() + 1, 1 - 1, 26);
+            $('#defaultCountdown').countdown({until: austDay});
+            $('#year').text(austDay.getFullYear());
         });
-        </script>
-    </div>
+    </script>
+</head>
+<body>
 
+<p>Counting down to 26 January <span id="year">2014</span>.</p>
+<div id="defaultCountdown"></div>
 </body>
 </html>
