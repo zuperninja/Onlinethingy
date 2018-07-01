@@ -1,2 +1,1 @@
-# zuperninja.github.io
-Bac à sable
+<a href="https://zuperninja.github.io/blog/"> ENTER </a>
